@@ -1,6 +1,6 @@
 ## Unreleased
 
-- 🧝 Added hidden "Elf on the Shelf" Easter egg feature - launch with `--elf` flag to discover festive seasonal cheer!
+- 🧝 Added hidden "Elf on the Shelf" Easter egg feature to bring festive seasonal cheer to your terminal!
 
 ## 0.0.354 - 2025-11-03
 

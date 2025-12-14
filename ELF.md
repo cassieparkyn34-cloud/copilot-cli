@@ -18,6 +18,8 @@ This will display a festive elf-themed banner to brighten your coding sessions!
 
 ## About
 
-This playful feature is a nod to the holiday tradition where an elf scout watches over and reports back to Santa. In our version, the elf watches over your code with the same helpful spirit that powers GitHub Copilot CLI!
+This playful feature is a nod to the holiday tradition where an elf scout 
+watches over and reports back to Santa. In our version, the elf watches over 
+your code with the same helpful spirit that powers GitHub Copilot CLI!
 
 Happy coding, and may your commits be merry and bright! 🎄✨

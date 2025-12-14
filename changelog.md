@@ -1,3 +1,7 @@
+## Unreleased
+
+- 🧝 Added hidden "Elf on the Shelf" Easter egg feature to bring festive seasonal cheer to your terminal!
+
 ## 0.0.354 - 2025-11-03
 
 - Exit with nonzero code when `-p` mode fails due to LLM backend errors (auth failures, quota exhaustion, network issues)

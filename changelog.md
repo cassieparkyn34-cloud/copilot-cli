@@ -1,3 +1,7 @@
+## Unreleased
+
+- 🖱️ Added mouse mapping support - launch with `--mouse` flag to enable mouse interactions in the terminal!
+
 ## 0.0.354 - 2025-11-03
 
 - Exit with nonzero code when `-p` mode fails due to LLM backend errors (auth failures, quota exhaustion, network issues)

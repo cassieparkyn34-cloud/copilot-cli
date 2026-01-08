@@ -52,6 +52,8 @@ copilot
 
 On first launch, you'll be greeted with our adorable animated banner! If you'd like to see this banner again, launch `copilot` with the `--banner` flag. 
 
+> 🖱️ **Pro tip:** Want to use your mouse in the CLI? Check out [MOUSE-MAPPING.md](MOUSE-MAPPING.md) to learn about mouse support!
+
 If you're not currently logged in to GitHub, you'll be prompted to use the `/login` slash command. Enter this command and follow the on-screen instructions to authenticate.
 
 #### Authenticate with a Personal Access Token (PAT)

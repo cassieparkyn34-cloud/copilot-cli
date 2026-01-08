@@ -10,23 +10,20 @@ permissions:
   issues: write
 
 jobs:
-  label_incoming_issues:
+  label_issues:
     runs-on: ubuntu-latest
-    if: github.event.action == 'opened' || github.event.action == 'reopened'
     steps:
-      - run: gh issue edit "$NUMBER" --add-label "$LABELS"
+      - name: Add triage label on new or reopened issue
+        if: github.event.action == 'opened' || github.event.action == 'reopened'
+        run: gh issue edit "$NUMBER" --add-label "$LABELS"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_REPO: ${{ github.repository }}
           NUMBER: ${{ github.event.issue.number }}
           LABELS: triage
-  label_more_info_issues:
-    if:
-      github.event.action == 'unlabeled' && github.event.label.name ==
-      'more-info-needed'
-    runs-on: ubuntu-latest
-    steps:
-      - run: gh issue edit "$NUMBER" --add-label "$LABELS"
+      - name: Restore triage label when more-info-needed is removed
+        if: github.event.action == 'unlabeled' && github.event.label.name == 'more-info-needed'
+        run: gh issue edit "$NUMBER" --add-label "$LABELS"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_REPO: ${{ github.repository }}

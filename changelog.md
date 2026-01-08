@@ -1,3 +1,7 @@
+## Unreleased
+
+- 🏠 Added hidden "House" Easter egg feature - launch with `--house` flag to display a welcoming house-themed banner!
+
 ## 0.0.354 - 2025-11-03
 
 - Exit with nonzero code when `-p` mode fails due to LLM backend errors (auth failures, quota exhaustion, network issues)

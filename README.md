@@ -73,6 +73,47 @@ Each time you submit a prompt to GitHub Copilot CLI, your monthly quota of premi
 
 For more information about how to use the GitHub Copilot CLI, see [our official documentation](https://docs.github.com/copilot/concepts/agents/about-copilot-cli).
 
+## 🏘️ Example Use Case: Finding Codes for House Mapping
+
+GitHub Copilot CLI is particularly useful when working with house mapping applications that involve various types of codes and identifiers. Here are some common scenarios:
+
+### Finding Property Codes
+
+```bash
+# Search for postal code validation logic
+"Find all postal code validation functions"
+
+# Locate address parsing code
+"Show me where addresses are parsed and structured"
+
+# Find property ID generation
+"Find code that generates or validates property IDs"
+```
+
+### Working with Geographic Codes
+
+```bash
+# Search for coordinate handling
+"Find functions that handle latitude and longitude"
+
+# Locate geocoding implementations
+"Show me the geocoding integration code"
+
+# Find mapping API usage
+"Where do we call external mapping APIs?"
+```
+
+### Common House Mapping Patterns
+
+Use GitHub Copilot CLI to quickly find and understand:
+- **Postal/ZIP code validation** - "Find postal code regex patterns"
+- **Address standardization** - "Show address normalization logic"
+- **Property identifiers** - "Find property ID formats and validation"
+- **Geographic coordinates** - "Show coordinate transformation functions"
+- **Mapping service integration** - "Find Google Maps or OpenStreetMap integration"
+
+Simply launch `copilot` in your house mapping project directory and ask questions in natural language to navigate and understand your codebase efficiently.
+
 
 ## 📢 Feedback and Participation
 

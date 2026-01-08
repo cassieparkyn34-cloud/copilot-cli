@@ -1,3 +1,7 @@
+## 0.0.355 - 2026-01-08
+
+- Added `/laser` command for precision-focused code navigation and editing
+
 ## 0.0.354 - 2025-11-03
 
 - Exit with nonzero code when `-p` mode fails due to LLM backend errors (auth failures, quota exhaustion, network issues)

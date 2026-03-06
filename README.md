@@ -108,6 +108,16 @@ Build a video editing or processing application. For example, a tool that trims,
 
 Copilot CLI will help set up the project dependencies, write the processing logic, and create the CLI interface for your video editor.
 
+### 🍽️ Meal Planning App
+
+Build an easy meal planning app to organize your weekly meals, generate shopping lists, and discover new recipes:
+
+```
+> Create a simple meal planning app where I can plan meals for each day of the week, add recipes with ingredients, and automatically generate a shopping list based on my weekly plan. Keep it easy to use with a clean web interface.
+```
+
+Copilot CLI will set up the project, create a recipe and meal plan data model, build the weekly planner UI, and wire up the shopping list generator — making meal planning effortless.
+
 ---
 
 ## 📢 Feedback and Participation

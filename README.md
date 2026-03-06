@@ -74,6 +74,42 @@ Each time you submit a prompt to GitHub Copilot CLI, your monthly quota of premi
 For more information about how to use the GitHub Copilot CLI, see [our official documentation](https://docs.github.com/copilot/concepts/agents/about-copilot-cli).
 
 
+## 💡 Example Use Cases
+
+GitHub Copilot CLI can help you build a wide range of applications. Here are a few examples to get you started:
+
+### 📚 Book App
+
+Build a reading or book management app — for example, a personal library tracker where you can catalog books, track reading progress, and write reviews:
+
+```
+> Create a book app where I can track books I'm reading, mark them as read or unread, and add personal notes for each book. Use a simple web interface with a database to persist the data.
+```
+
+Copilot CLI will scaffold the project, create the necessary files, set up a database schema, and wire up the UI — all through natural language conversation.
+
+### 🌐 Web App
+
+Build full-stack web applications quickly. For example, start a new React + Node.js project:
+
+```
+> Create a web app with a React frontend and an Express backend. Include user authentication, a home page, and a dashboard. Use Tailwind CSS for styling.
+```
+
+You can iterate on the design, add features, and fix bugs all within the same Copilot CLI session.
+
+### 🎬 Video Editing Tool
+
+Build a video editing or processing application. For example, a tool that trims, merges, or adds subtitles to videos:
+
+```
+> Create a video editing tool that lets me trim video clips, merge multiple videos together, and export the result. Use ffmpeg for the video processing and provide a simple command-line interface.
+```
+
+Copilot CLI will help set up the project dependencies, write the processing logic, and create the CLI interface for your video editor.
+
+---
+
 ## 📢 Feedback and Participation
 
 We're excited to have you join us early in the Copilot CLI journey.
